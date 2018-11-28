@@ -8,7 +8,7 @@ public class MathRandomApp {
 		double rand0 = Math.random();
 		System.out.println("Math.random() vierge : " + rand0);
 		
-		// génère un nombre décimal entre 0 et 1
+		// génère un nombre entier entre 0 et 1
 		int rand1 = (int) (Math.random() * 1.99);
 		System.out.println("0 ou 1 : " + rand1);
 		
@@ -26,7 +26,7 @@ public class MathRandomApp {
 		System.out.println("inhabitants : " + inhabitants);
 		
 		// génère un numéro de téléphone portable français
-		String phone = "0" + (int) (6 + Math.random() * 1.99) + (int) (10000000 + Math.random() * 90000000);
+		String phone = "0" + (int) (6 + Math.random() * 1.9999) + (int) (10000000 + Math.random() * 90000000);
 		System.out.println("phone : " + phone);
 
 	}
